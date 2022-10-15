@@ -5,7 +5,7 @@ rm -rf ./runs/detect
 
 rm -rf ./prescription_info
 
-using yolov5 to predict prescription
+# using yolov5 to predict prescription
 CUDA_VISIBLE_DEVICES=$GPU_FREE \
 	python3.8 detect.py \
         --data data/data.yaml\

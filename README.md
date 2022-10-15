@@ -16,13 +16,11 @@ Tuy không đạt đươc giải cao trong cuộc thi lần này, nhưng team m�
 
 - n "ảnh chụp viên thuốc" (Xét cho đơn thuốc trên)
 
-<!-- <img src="drawing.jpg" alt="drawing" width="200"/> -->
-<center>
-<img src="./public_test/pill/image/VAIPE_P_0_0.jpg" width="20%" height="auto"/>
-<img src="./public_test/pill/image/VAIPE_P_0_1.jpg" width="20%" height="auto"/>
-<img src="./public_test/pill/image/VAIPE_P_0_2.jpg" width="20%" height="auto"/>
-<img src="./public_test/pill/image/VAIPE_P_0_3.jpg" width="20%" height="auto"/>
-</center>
+
+VAIPE_P_0_0.jpg             |  VAIPE_P_0_1.jpg |  VAIPE_P_0_2.jpg |  VAIPE_P_0_3.jpg
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+<img src="./public_test/pill/image/VAIPE_P_0_0.jpg" />|  <img src="./public_test/pill/image/VAIPE_P_0_1.jpg" /> | <img src="./public_test/pill/image/VAIPE_P_0_2.jpg" />|  <img src="./public_test/pill/image/VAIPE_P_0_3.jpg" /> 
+
 
 ### Output: 
 Với mỗi "ảnh chụp viên thuốc", xét xem những viên thuốc nào nằm trong đơn (xác định tên thuốc, vị trí), viên thuốc nào không nằm trong đơn (xác định vị trí).
@@ -63,4 +61,6 @@ sh gen_result_with_cpu.sh # Nếu máy không có gpu
 
 sh gen_result_with_gpu.sh # Nếu máy có gpu
 ```
+Kêt quả có được là file result.csv.
 
+Nhóm mình không public file weights, nếu cần thiết các bạn có thể liên lạc với mình qua mail: 20521592@gm.uit.edu.vn
