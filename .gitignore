@@ -10,3 +10,6 @@ weights/
 # prediction
 # main_model/runs/
 # main_model/prescription_info/
+
+# virtualenv
+venv/
