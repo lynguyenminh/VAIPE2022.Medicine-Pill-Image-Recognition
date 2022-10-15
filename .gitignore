@@ -1,0 +1,12 @@
+# data path
+# public_test_main/
+# public_test_old/
+# public_test/
+# predict/
+
+# weight path
+weights/
+
+# prediction
+# main_model/runs/
+# main_model/prescription_info/
