@@ -68,7 +68,8 @@ Kêt quả có được là file result.csv.
 streamlit run app.py
 ```
 Video Demo: 
-[<center><img src="./app-demo.png" width="200"></center>](https://www.youtube.com/watch?v=OYYjpOT2W)
+
+[<img src="./app-demo.png" width="200">](https://www.youtube.com/watch?v=OYYjpOT2W-k)
 
 
 
