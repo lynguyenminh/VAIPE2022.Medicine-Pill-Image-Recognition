@@ -63,4 +63,13 @@ sh gen_result_with_gpu.sh # Nếu máy có gpu
 ```
 Kêt quả có được là file result.csv.
 
+### 3. Deploy on web
+```
+streamlit run app.py
+```
+Video Demo: 
+[<center><img src="./app-demo.png" width="200"></center>](https://www.youtube.com/watch?v=OYYjpOT2W)
+
+
+
 Nhóm mình không public file weights, nếu cần thiết các bạn có thể liên lạc với mình qua mail: 20521592@gm.uit.edu.vn
