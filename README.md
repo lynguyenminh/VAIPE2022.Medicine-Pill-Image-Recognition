@@ -11,7 +11,7 @@ Tuy không đạt đươc giải cao trong cuộc thi lần này, nhưng team m�
 - 1 ảnh đơn thuốc
 
 <center>
-<img src="./public_test/prescription/image/VAIPE_P_TEST_NEW_0.png" width="50%" height="auto"/>
+<img src="./data/testset/prescription/image/VAIPE_P_TEST_NEW_0.png" width="50%" height="auto"/>
 </center>
 
 - n "ảnh chụp viên thuốc" (Xét cho đơn thuốc trên)
@@ -19,7 +19,9 @@ Tuy không đạt đươc giải cao trong cuộc thi lần này, nhưng team m�
 
 VAIPE_P_0_0.jpg             |  VAIPE_P_0_1.jpg |  VAIPE_P_0_2.jpg |  VAIPE_P_0_3.jpg
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-<img src="./public_test/pill/image/VAIPE_P_0_0.jpg" />|  <img src="./public_test/pill/image/VAIPE_P_0_1.jpg" /> | <img src="./public_test/pill/image/VAIPE_P_0_2.jpg" />|  <img src="./public_test/pill/image/VAIPE_P_0_3.jpg" /> 
+<img src="./data/testset/pill/image/VAIPE_P_0_0.jpg" />|  <img src="./data/testset/pill/image/VAIPE_P_0_1.jpg" /> | <img src="./data/testset/pill/image/VAIPE_P_0_2.jpg" />|  <img src="./data/testset/pill/image/VAIPE_P_0_3.jpg" /> 
+
+
 
 
 ### Output: 
@@ -57,19 +59,15 @@ pip install -r requirements.txt --no-cache-dir # Nếu không có gpu
 ```
 ### 2. Inference
 ```
-sh gen_result_with_cpu.sh # Nếu máy không có gpu
-
-sh gen_result_with_gpu.sh # Nếu máy có gpu
+sh run1.sh && sh run2.sh
 ```
-Kêt quả có được là file result.csv.
+Kêt quả có được là file ./results/result.csv.
 
 ### 3. Deploy on web
 ```
-streamlit run app.py
+cd src/app-demo && streamlit run app.py
 ```
-Video Demo: 
-
-[<img src="./app-demo.png" width="200">](https://www.youtube.com/watch?v=OYYjpOT2W-k)
+Video Demo: **[HERE](https://www.youtube.com/watch?v=OYYjpOT2W-k)**.
 
 
 
