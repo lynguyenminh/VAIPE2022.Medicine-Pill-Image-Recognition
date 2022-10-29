@@ -17,9 +17,9 @@ Tuy không đạt đươc giải cao trong cuộc thi lần này, nhưng team m�
 - n "ảnh chụp viên thuốc" (Xét cho đơn thuốc trên)
 
 
-VAIPE_P_0_0.jpg             |  VAIPE_P_0_1.jpg |  VAIPE_P_0_2.jpg |  VAIPE_P_0_3.jpg
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-<img src="./data/testset/pill/image/VAIPE_P_0_0.jpg" />|  <img src="./data/testset/pill/image/VAIPE_P_0_1.jpg" /> | <img src="./data/testset/pill/image/VAIPE_P_0_2.jpg" />|  <img src="./data/testset/pill/image/VAIPE_P_0_3.jpg" /> 
+VAIPE_P_0_0.jpg             |  VAIPE_P_0_1.jpg 
+:-------------------------:|:-------------------------:
+<img src="./data/testset/pill/image/VAIPE_P_0_0.jpg" />|  <img src="./data/testset/pill/image/VAIPE_P_0_1.jpg" /> 
 
 
 
