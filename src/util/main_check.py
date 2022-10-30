@@ -1,5 +1,6 @@
 from difflib import SequenceMatcher
 from util.clean_string import clean_drugname
+# from clean_string import clean_drugname
 
 
 # score of 2 strings
@@ -21,6 +22,6 @@ def check_pill_in_pres(pill_name, name_in_prescription, score):
 # kiem tra xem danh sach ten thuoc co thuoc prescription ko
 def decision_in_out(name_in_pill, name_in_prescription, score):
     count = [check_pill_in_pres(i, name_in_prescription, score) for i in name_in_pill]
-    return 0 if count == 0 else 1
+    return sum(count)
 
-# print(decision_in_out(['amoxicilin500mg500mg', 'fabamox500500mg', 'novoxim50005g'], ['novoxim50005gtru', 'kavasdin55mg', 'mypara500500mg']))
+# print(decision_in_out(['amoxicilin500mg500mg', 'fabamox500500mg', 'novoxim50005g'], ['novoxim50005gtru', 'kavasdin55mg', 'mypara500500mg'], 0.80))
