@@ -4,6 +4,9 @@ Cuộc thi do Trung tâm Y tế thông minh VinUni-Illinois thuộc trường Đ
 
 Tuy không đạt đươc giải cao trong cuộc thi lần này, nhưng team mình muốn chia sẻ giải pháp tới mọi người.
 
+Video Demo: 
+
+[![pill](https://user-images.githubusercontent.com/82688630/212629320-c38094c3-80fd-46c8-877d-2b2823d9d9e6.png)](https://www.youtube.com/watch?v=OYYjpOT2W-k).
 
 ## 1. Mô tả bài toán
 
@@ -67,7 +70,7 @@ Kêt quả có được là file ./results/result.csv.
 ```
 cd src/app-demo && streamlit run app.py
 ```
-Video Demo: [![pill](https://user-images.githubusercontent.com/82688630/212629320-c38094c3-80fd-46c8-877d-2b2823d9d9e6.png)](https://www.youtube.com/watch?v=OYYjpOT2W-k).
+
 
 
 
