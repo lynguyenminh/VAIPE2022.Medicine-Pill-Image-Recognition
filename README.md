@@ -67,7 +67,10 @@ Kêt quả có được là file ./results/result.csv.
 ```
 cd src/app-demo && streamlit run app.py
 ```
-Video Demo: **[HERE](https://www.youtube.com/watch?v=OYYjpOT2W-k)**.
+Video Demo: [![pill](https://user-images.githubusercontent.com/82688630/212629320-c38094c3-80fd-46c8-877d-2b2823d9d9e6.png)](https://www.youtube.com/watch?v=OYYjpOT2W-k).
+
+
+
 
 
 
