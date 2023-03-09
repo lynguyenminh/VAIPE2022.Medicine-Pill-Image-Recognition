@@ -6,7 +6,10 @@ Tuy không đạt đươc giải cao trong cuộc thi lần này, nhưng team m�
 
 Video Demo: 
 
-[![pill](https://user-images.githubusercontent.com/82688630/212629320-c38094c3-80fd-46c8-877d-2b2823d9d9e6.png)](https://www.youtube.com/watch?v=OYYjpOT2W-k).
+
+
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/OYYjpOT2W-k/0.jpg)](https://www.youtube.com/watch?v=OYYjpOT2W-k)
 
 ## 1. Mô tả bài toán
 
